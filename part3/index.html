@@ -9,7 +9,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script>
         var printJSONKeys = function(key, value) {
-            $("#team").append("<h1>" + value.name + "</h1><p><i><strong>" + value.secretyIdentity + "</strong></i><br>" + value.superPowers + "</p>");
+            $("#result").append("<h1>" + value.name + "</h1><p><i><strong>" + value.secretyIdentity + "</strong></i><br>" + value.superPowers + "</p>");
         }
         
         var printJSONNodes = function() {
@@ -45,7 +45,7 @@
     <section id="content">
         <h2>The Vecta Corp. Management Team</h2>
 
-		<div id="team"></div>
+		<div id="result"></div>
     </section>
     
     <footer></footer>
