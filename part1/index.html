@@ -8,17 +8,25 @@
     <!-- jQuery library reference. Latest is always referenced from jQuery's CDN. -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   	<script>
-	$(function() {
-		$('a#vprospect').on("click", function() {
+        var getVprospect = function() {
 			$('#solution').load('solutions.html #vprospect');
-		});
-		$('a#vconvert').on("click", function() {
+		}
+        
+        var getVconvert = function() {
 			$('#solution').load('solutions.html #vconvert');
-		});
-		$('a#vretain').on("click", function() {
+		}
+        
+        var getVretain = function() {
 			$('#solution').load('solutions.html #vretain');
-		});
-	});
+		}
+        
+        var init = function() {
+            $('a#vprospect').on("click", getVprospect);
+            $('a#vconvert').on("click", getVconvert);
+            $('a#vretain').on("click", getVretain);
+        }
+
+        $(document).ready(init);
     </script>
 </head>
 
