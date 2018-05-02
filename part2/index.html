@@ -8,16 +8,19 @@
     <!-- jQuery library reference. Latest is always referenced from jQuery's CDN. -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script>
-	$(function() {
-		$.get("team.xml", function(data) { 
-			$(data).find("management").children().each(function() {
-				$("#team").append("<h3>" + 
-					$(this).find('name').text() + "</h3><p>" + 
-					$(this).find('title').text() + "<br>" +  
-					$(this).find('bio').text() + "</p>");
-			});
-		});
-	});
+        var printXMLchild = function() {
+                $("#team").append("<h1>" + $(this).find('name').text() + "</h1><p><i><strong>" + $(this).find('title').text() + "</strong></i><br>" + $(this).find('bio').text() + "</p>");
+        }
+        
+        var getXML = function(XML) {
+            $(XML).find("management").children().each(printXMLchild);
+        }
+        
+        var init = function() {
+            $.get("team.xml", getXML, "xml");
+        }
+
+        $(document).ready(init);
     </script>
 </head>
 
