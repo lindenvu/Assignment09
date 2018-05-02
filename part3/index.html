@@ -8,15 +8,23 @@
     <!-- jQuery library reference. Latest is always referenced from jQuery's CDN. -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script>
-	$(function(){
-		$.getJSON('json.js', function(data) {
-			$.each(data, function() {
-				$.each(this, function(key, value) {
-					$("#team").append(value.name + '<br>' + value.title + '<br>' + value.bio + '<br><br>');
-				});
-			});
-		});
-	});
+        var printJSONKeys = function(key, value) {
+            $("#team").append("<h1>" + value.name + "</h1><p><i><strong>" + value.secretyIdentity + "</strong></i><br>" + value.superPowers + "</p>");
+        }
+        
+        var printJSONNodes = function() {
+            $.each(this, printJSONKeys);
+        }
+        
+        var printJSON = function(JSON) {
+            $.each(JSON, printJSONNodes);
+        }
+               
+        var init = function() {
+            $.getJSON('json.js', printJSON);
+        }
+
+        $(document).ready(init);
     </script>
 </head>
 

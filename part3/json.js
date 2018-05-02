@@ -1,27 +1,27 @@
-{"teammembers":[
+{"Avengers":[
 	{
-		"name":"Agnes",
-		"title":"Vice President of Accounting",
-		"bio":"With over 14 years of public accounting and business advisory service experience in the Tongas, Ecuador, Canada, Botswana and the US, Agnes is the most seasoned and diversed member of the Vecta Corp. team."
+		"name":"Steve Rogers",
+		"secretyIdentity":"Captain America",
+		"superPowers":"Super-Soldier Serum transformed Steve Rogers into Captain America with super strength, endurance, agility, speed, reflexes, durability, and healing"
 	},
 	{
-		"name":"Damon",
-		"title":"Director of Development",
-		"bio":"Damon is the Director of Development for Vecta Corp. Damon creates learning materials for Vecta Corp. as well as consulting for customers to integrate vSolutions into their production pipeline and business processes."
+		"name":"Tony Stark",
+		"secretyIdentity":"Iron Man",
+		"superPowers":"Pilots the Iron Man armor suit equiped with plasma blasters and flight thrusters.  The Iron Man suit is powered by ARC reactor, both of which is by invented by Tony Stark"
 	},
 	{
-		"name":"Herbert",
-		"title":"Director of Human Resources",
-		"bio":"Herbert joined Vecta Corp. in October 1999 as Vecta Corp's first Human Resources Director. As such, he has overall human resources responsibility for Vecta Corp's operations worldwide."
+		"name":"Bruce Banner",
+		"secretyIdentity":"Hulk",
+		"superPowers":"Hit with gamma waves that gave Bruce a Dr. Jekyll and Mr. Hyde syndrome. When calm he is mild mannered physicist Prof Banner, and when angry metamorphosizes into the HULK, a monsterous green giant that smashes everything."
 	},
 	{
-		"name":"Mike",
-		"title":"Vice President of Sales and Marketing",
-		"bio":"Mike serves as the Vice President of Sales and Marketing for Vecta Corp. In this role Mike oversees Vecta Corp's marketing and corporate communications efforts worldwide."
+		"name":"Clint Barton",
+		"secretyIdentity":"Hawkeye",
+		"superPowers":"Clint Barton is an expert marksman that never misses, whose prefered firearm is a crossbow armed with specially armed arrowheads."
 	},
 	{
-		"name":"Wilbur",
-		"title":"Founder and CEO",
-		"bio":"While Wilbur is the founder and CEO of Vecta Corp, he is primarily known for being the pioneer and world leader of creating vSolutions."
+		"name":"Natasha Romanova",
+		"secretyIdentity":"Black Widow",
+		"superPowers":"Natasha Romanova is a former Russian spy that specializes in several hand to hand combat styles, as well as acrobatic reflexes, and infiltrating and espionage."
 	}
 ]}
